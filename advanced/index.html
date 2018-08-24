@@ -1,0 +1,270 @@
+<!--
+ Copyright 2016 Google Inc.
+ 
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ 
+      http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<!doctype html>
+<html ⚡ lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+    <link rel="canonical" href="/article.html">
+    <link rel="shortcut icon" href="amp_favicon.png">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway">
+
+    <title>News Article</title>
+
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <style amp-custom>
+      body {
+        width: auto;
+        margin: 0;
+        padding: 0;
+        font-family: 'Raleway', sans-serif;
+      }
+
+      header {
+        background: Tomato;
+        color: white;
+        font-size: 2em;
+        text-align: center;
+      }
+
+      h1 {
+        margin: 0;
+        padding: 0.5em;
+        background: white;
+        box-shadow: 0px 3px 5px grey;
+      }
+
+      p {
+        padding: 0.5em;
+        margin: 0.5em;
+      }
+      amp-fit-text {
+        white-space: normal;
+      }
+      .home-button {
+        margin-top: 8px;
+      }
+      .headerbar {
+        height: 50px;
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+      }
+      .site-name {
+        flex: 1;
+        margin-left: -36px;
+      }
+      article {
+        margin-top: 50px;
+      }
+      .hamburger {
+        padding-left: 10px;
+      }      
+      .sidebar {
+        padding: 10px;
+        margin: 0;
+      }
+      .sidebar > li {
+        list-style: none;
+        margin-bottom:10px;
+      }
+      .sidebar a {
+        text-decoration: none;
+      }
+      .close-sidebar {
+        font-size: 1.5em;
+        padding-left: 5px;
+      }
+    </style>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+    <script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
+    <script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script>
+    <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    <script type="application/ld+json">
+    {
+     "@context": "http://schema.org",
+     "@type": "NewsArticle",
+     "mainEntityOfPage":{
+       "@type":"WebPage",
+       "@id":"https://example.com/my-article.html"
+     },
+     "headline": "My First AMP Article",
+     "image": {
+       "@type": "ImageObject",
+       "url": "https://example.com/article_thumbnail1.jpg",
+       "height": 800,
+       "width": 800
+     },
+     "datePublished": "2015-02-05T08:00:00+08:00",
+     "dateModified": "2015-02-05T09:20:00+08:00",
+     "author": {
+       "@type": "Person",
+       "name": "John Doe"
+     },
+     "publisher": {
+       "@type": "Organization",
+       "name": "⚡ AMP Times",
+       "logo": {
+         "@type": "ImageObject",
+         "url": "https://example.com/amptimes_logo.jpg",
+         "width": 600,
+         "height": 60
+       }
+     },
+     "description": "My first experience in an AMPlified world"
+    }
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', 'UA-XXXXX-Y', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+    <amp-analytics type="googleanalytics">
+      <script type="application/json">
+      {
+        "vars": {
+          "account": "UA-YYYY-Y"
+        },
+        "triggers": {
+          "default pageview": {
+            "on": "visible",
+            "request": "pageview",
+            "vars": {
+              "title": "Name of the Article"
+            }
+          },
+          "click on #header trigger": {
+            "on": "click",
+            "selector": "#header",
+            "request": "event",
+            "vars": {
+              "eventCategory": "examples",
+              "eventAction": "clicked-header"
+            }
+          }
+        }
+      }
+      </script>
+    </amp-analytics>
+    <header class="headerbar">
+      <div role="button" on="tap:sidebar1.toggle" tabindex="0" class="hamburger">☰</div>
+      <div class="site-name">News Site</div>
+    </header>
+    <amp-sidebar id="sidebar1" layout="nodisplay" side="left">
+      <div role="button" aria-label="close sidebar" on="tap:sidebar1.toggle" tabindex="0" class="close-sidebar">✕</div>
+      <ul class="sidebar">
+        <li><a href="#">Example 1</a></li>
+        <li><a href="#">Example 2</a></li>
+        <li><a href="#">Example 3</a></li>
+      </ul>
+    </amp-sidebar>
+    <article>
+      <h1>Article Name</h1>
+      <amp-img src="mountains.jpg" layout="responsive" width="266" height="150"></amp-img>
+    </article>
+
+    <amp-ad
+      width="300"
+      height="250"
+      type="doubleclick"
+      data-slot="/35096353/amptesting/geo/uk">
+      <div fallback>No ad appeared because you're not browsing from the UK!</div>
+    </amp-ad>
+    
+    <amp-ad
+      width="300"
+      height="250"
+      type="doubleclick"
+      data-slot="/35096353/amptesting/geo/us">
+      <div fallback>No ad appeared because you're not browsing from the US!</div>
+    </amp-ad>
+
+<!--     <amp-youtube
+      data-videoid="npum8JsITQE"
+      layout="responsive"
+      width="480"
+      height="270">
+      <div fallback>
+        <p>The video could not be loaded.</p>
+      </div>
+    </amp-youtube> -->
+
+    <amp-twitter
+      width="486"
+      height="657"
+      layout="responsive"
+      data-tweetid="638793490521001985">
+    </amp-twitter>
+
+    <amp-fit-text width="400" height="75" layout="responsive" max-font-size="42">
+      Big, bold article quote goes here.
+    </amp-fit-text>
+
+    <amp-fit-text width="400" height="75" layout="responsive" max-font-size="42">
+      Hello!
+    </amp-fit-text>
+
+    <amp-fit-text width="400" height="75" layout="responsive" max-font-size="42">
+      And the Raven, never flitting, still is sitting, still is sitting. On the pallid bust of Pallas just above my chamber door; And his eyes have all the seeming of a demon’s that is dreaming, And the lamp-light o’er him streaming throws his shadow on the floor; And my soul from out that shadow that lies floating on the floor. Shall be lifted—nevermore!
+    </amp-fit-text>
+
+
+    <amp-carousel layout="responsive" width="300" height="168" type="slides" autoplay delay="3000" loop>
+      <amp-img src="mountains-1.jpg" width="300" height="168" layout="responsive"></amp-img>
+      <amp-img src="mountains-2.jpg" width="300" height="168" layout="responsive"></amp-img>
+      <amp-img src="mountains-3.jpg" width="300" height="168" layout="responsive"></amp-img>
+    </amp-carousel>
+
+    <amp-carousel layout="fixed-height" height="250" type="carousel" >
+        <amp-img src="blocky-mountains-1.jpg" width="300" height="250"></amp-img>
+    
+        <amp-ad
+          width="300"
+          height="250"
+          type="doubleclick"
+          data-slot="/35096353/amptesting/image/static">
+        </amp-ad>
+
+        <amp-ad
+          width="300"
+          height="250"
+          type="a9"
+          data-aax_size="300x250"
+          data-aax_pubname="test123"
+          data-aax_src="302">
+        </amp-ad>
+    
+        <amp-fit-text width="300" height="250" layout="fixed">
+            Big, bold article quote goes here.
+        </amp-fit-text>
+    </amp-carousel>
+  </body>
+</html>
